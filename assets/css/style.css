@@ -3,11 +3,14 @@
     padding: 0;
 }
 
+/* Fuente de google Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
 
+/* contenedor main */
 .Main {
     display: flex;
 }
+
 /* columna derecha */
 .columnaright {
     flex-direction: column;
@@ -28,7 +31,7 @@
     height: auto;
 }
 
-/* Estilo parrafos logo */
+/* Estilo parrafos logo columna derecha*/
 
 .parlog {
 
@@ -55,7 +58,7 @@
     font-family: 'Roboto Flex', sans-serif;
 }
 
-/* Columna izquierda */
+/* Columna izquierda Contactos */
 .contactos {
     /* width: 29%; */
     flex-basis: 29%;
@@ -64,17 +67,35 @@
     /* height: 100vh; */
 }
 
+/* Caja contenedora de contacto */
+
 .maria {
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
     border: solid 1px rgb(214, 209, 209);
-    
-    
 }
 
-.maria i {
-    margin: 8% 0 2% 50%;
+.datoscontacto{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon1 i {
+    margin: 150% 0 2% -400%;
+}
+
+.icon2 i {
+    margin: 160% 0 2% -400%;
 }
 .maria img {
     margin: 5%;
@@ -90,10 +111,11 @@
 
 .estado {
     color: #b5b9af;
-    margin: 11% 0 0 -11%;
+    margin: 11% 0 0 -12%;
     
 }
 
+/* Botón nuevo chat */
 .botonDiv{
     display: flex;
     justify-content: center;
@@ -107,9 +129,11 @@
     background-color: #a490d2;
     border-color: #a490d2;
     /* border-radius: 15px; */
-    height: 50%;
-    width: 80%;
-    
+    height: 60px;
+    width: 200px;
+    color: #FFF;
+    font-family: 'Roboto Flex', sans-serif;
+    border: none;
 }
 
 
