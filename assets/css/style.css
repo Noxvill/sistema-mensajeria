@@ -37,6 +37,7 @@
 .maria {
     display: flex;
     border: solid 1px rgb(214, 209, 209);
+    
 }
 
 .maria i {
@@ -91,4 +92,11 @@
    font-weight: 10;
     font-size: 21px;
     font-family: 'Roboto Flex', sans-serif;
+}
+
+/* Estilo de las líneas de chat */
+
+.chatline {
+    color: #000000;
+    margin: 10% 0 0 -11%;
 }
