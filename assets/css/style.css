@@ -17,6 +17,7 @@
     justify-content: center;
     width: 100%;
     height: auto;
+  
     background-color: #E8EBE4;
 }
 
@@ -60,27 +61,45 @@
 
 /* Columna izquierda Contactos */
 .contactos {
+    display: flex;
+    flex-direction: column;
     /* width: 29%; */
-    flex-basis: 29%;
+    flex-basis: 19%;
+    /* height: auto; */
     background-color: #FFF;
-    align-items: center;
-    /* height: 100vh; */
+    /* align-items: center; */
+    
 }
 
-/* Caja contenedora de contacto */
+/* Caja contenedora de contacto superior */
 
-.maria {
+.mainchat {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     border: solid 1px rgb(214, 209, 209);
 }
+
 
 .datoscontacto{
 
     display: flex;
     flex-direction: row;
 
+}
+
+.nombre {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    margin: 5% 0 0 0;
+}
+
+.estado {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #b5b9af;
+    margin: 14% 0 0 -19%;
+    font-size: 12px;
+    
 }
 
 .icon{
@@ -91,29 +110,52 @@
 }
 
 .icon1 i {
-    margin: 150% 0 2% -400%;
+    margin: 150% 0 2% -250%;
 }
 
 .icon2 i {
-    margin: 160% 0 2% -400%;
+    margin: 160% 0 2% -190%;
 }
-.maria img {
+.mainchat img {
+    /* display: flex; */
+    
     margin: 5%;
-    width: 10%;
+    width: 17%;
     border-radius: 50%;
 }
 
-.nombre {
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 14px;
-    margin: 6% 0 0 0;
+/* caja contenedor contactos inferiores */
+
+.mainchat2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    border: solid 1px rgb(214, 209, 209);
 }
 
-.estado {
-    color: #b5b9af;
-    margin: 11% 0 0 -12%;
+.mainchat2 img {
+    /* display: flex; */
     
+    margin: 5%;
+    width: 19%;
+    border-radius: 50%;
 }
+
+.nombre2 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    margin: 8% 0 0 1%;
+}
+
+/* Estilo de las líneas de chat */
+
+.chatline {
+    color: #000000;
+    margin: 15% 0 0 -22%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+}
+
 
 /* Botón nuevo chat */
 .botonDiv{
@@ -129,8 +171,8 @@
     background-color: #a490d2;
     border-color: #a490d2;
     /* border-radius: 15px; */
-    height: 60px;
-    width: 200px;
+    height: 40px;
+    width: 160px;
     color: #FFF;
     font-family: 'Roboto Flex', sans-serif;
     border: none;
@@ -138,11 +180,4 @@
 
 
 
-/* Estilo de las líneas de chat */
-
-.chatline {
-    color: #000000;
-    margin: 11% 0 0 -11%;
-    font-family: 'Roboto Flex', sans-serif;
-}
 
