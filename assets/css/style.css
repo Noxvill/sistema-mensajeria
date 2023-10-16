@@ -27,7 +27,7 @@
 }
 
 .logo-img img {
-    padding-top: 15%;
+    padding-top: 13%;
     width: 20%;
     height: auto;
 }
@@ -43,19 +43,19 @@
 .fpar {
 
     font-weight: 600;
-    font-size: 35px;
+    font-size: 39px;
     font-family: 'Roboto Flex', sans-serif;
 }
 .secpar {
 
     /* font-weight: 600; */
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Roboto Flex', sans-serif;
 }
 .trdpar {
 
    font-weight: 10;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -85,6 +85,7 @@
 
     display: flex;
     flex-direction: row;
+    
 
 }
 
@@ -126,10 +127,11 @@
 
 /* caja contenedor contactos inferiores */
 
+
 .mainchat2 {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     border: solid 1px rgb(214, 209, 209);
 }
 
@@ -144,14 +146,16 @@
 .nombre2 {
     font-family: 'Roboto Flex', sans-serif;
     font-size: 15px;
-    margin: 8% 0 0 1%;
+    margin: 8% 0% 0 0%;
 }
 
 /* Estilo de las líneas de chat */
 
 .chatline {
+    
+   
     color: #000000;
-    margin: 15% 0 0 -22%;
+    margin: 16% 0 0 -22%;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 12px;
 }
@@ -177,7 +181,3 @@
     font-family: 'Roboto Flex', sans-serif;
     border: none;
 }
-
-
-
-
