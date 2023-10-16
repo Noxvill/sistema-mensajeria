@@ -13,11 +13,12 @@
 
 /* columna derecha */
 .columnaright {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    height: auto;
-  
+    /* width: 100%;
+    height: auto; */
+  flex-basis: 100%;
     background-color: #E8EBE4;
 }
 
